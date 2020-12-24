@@ -101,8 +101,7 @@
            </property>
            <property name="styleSheet">
             <string notr="true">border: 0px;
-border-radius: 22px;
-padding-right: 30px;
+border-radius: 35px;
 background-color: rgb(96, 96, 96);</string>
            </property>
            <property name="frameShape">
@@ -135,18 +134,41 @@ background-color: rgb(96, 96, 96);</string>
                 <height>50</height>
                </size>
               </property>
+              <property name="font">
+               <font>
+                <family>Segoe UI Semibold</family>
+                <pointsize>14</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="autoFillBackground">
                <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: white;</string>
+              </property>
+              <property name="text">
+               <string/>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="sendButton">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <property name="layoutDirection">
                <enum>Qt::RightToLeft</enum>
               </property>
               <property name="autoFillBackground">
                <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: transparent;</string>
               </property>
               <property name="text">
                <string/>
@@ -194,23 +216,6 @@ background-color: rgb(96, 96, 96);</string>
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="label_4">
-           <property name="maximumSize">
-            <size>
-             <width>16777215</width>
-             <height>71</height>
-            </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">image: url(&quot;C:/Users/Minh Duc/Desktop/Login/UI/user.png&quot;);
-background-color:transparent;</string>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QLabel" name="label_3">
            <property name="maximumSize">
             <size>
@@ -238,6 +243,23 @@ background-color:transparent;</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="logo">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>71</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(&quot;C:/Users/Minh Duc/Desktop/Chat Demo/UI/user.png&quot;);
+background-color:transparent;</string>
+           </property>
+           <property name="text">
+            <string/>
            </property>
           </widget>
          </item>
@@ -275,7 +297,7 @@ background-color:transparent;</string>
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="label_5">
+             <widget class="QLabel" name="fullnameLogo">
               <property name="minimumSize">
                <size>
                 <width>51</width>
@@ -306,6 +328,8 @@ background-color: transparent;
               <property name="font">
                <font>
                 <pointsize>9</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
                </font>
               </property>
               <property name="styleSheet">
@@ -371,7 +395,7 @@ background-color:transparent;</string>
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="label_6">
+             <widget class="QLabel" name="userLogo">
               <property name="minimumSize">
                <size>
                 <width>51</width>
@@ -473,7 +497,7 @@ background-color:transparent;</string>
              <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="label_7">
+             <widget class="QLabel" name="dobLogo">
               <property name="minimumSize">
                <size>
                 <width>51</width>
