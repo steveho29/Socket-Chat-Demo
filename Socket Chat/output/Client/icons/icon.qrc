@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>id-icon-png-24.jpg</file>
+    <file>id.png</file>
+    <file>bg.jpg</file>
+    <file>1.png</file>
+    <file>icon.qrc</file>
+    <file>lock_32x32.png</file>
+    <file>mail_32x32.png</file>
+    <file>user_32x32.png</file>
+  </qresource>
+</RCC>
